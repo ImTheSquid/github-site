@@ -2,8 +2,8 @@
     import Navbar from '../components/Navbar.svelte'
     import { metatags } from '@roxi/routify';
     
-    metatags.title = 'My Routify app';
-    metatags.description = 'Description coming soon...';
+    metatags.title = 'Home';
+    metatags.description = 'Landing page for ImTheSquid\'s projects.';
 </script>
 
 
@@ -13,8 +13,6 @@
 </main>
 
 <style>
-
-
 	main {
 		text-align: center;
 		padding: 1em;

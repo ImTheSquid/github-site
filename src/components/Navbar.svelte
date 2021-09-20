@@ -16,7 +16,7 @@
         color: white;
         margin: 0.1em;
         overflow: hidden;
-        filter: drop-shadow(0.1em 0.4em 0.2em gray);
+        filter: var(--floating-shadow);
         height: 3.5em;
     }
 
