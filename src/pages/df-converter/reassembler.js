@@ -18,7 +18,6 @@ export async function reassembleFiles(files) {
     let output = new Uint8Array();
     const decoder = new TextDecoder('utf8');
     for (const buffer of fileDatas) {
-        console.log(buffer);
         if (buffer[2] >= buffer[3] || (numChunks !== 0 && buffer[3] > numChunks)) {
             return [false, 'Files not part of same group.'];
         }

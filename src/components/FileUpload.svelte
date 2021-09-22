@@ -18,16 +18,13 @@
     }
 
     function removeFile(file) {
-        console.log(file);
         const fileIndex = files.indexOf(file);
-        console.log(fileIndex);
         if (files.length === 1) {
             files = [];
         } else {
             files.splice(fileIndex, 1);
             files = files;
         }
-        console.log(files);
     }
 </script>
 
